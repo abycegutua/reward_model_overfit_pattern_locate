@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "abycegutua-mmeval_jd343"
+name = "abycegutua-reward_model_overfit_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告多模态评测工程师·奖励模型的过拟合相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://abycegutua.github.io"
-Repository = "https://github.com/abycegutua/mmeval_jd343"
-Issues = "https://github.com/abycegutua/mmeval_jd343/issues"
+Repository = "https://github.com/abycegutua/reward_model_overfit_pattern_locate"
+Issues = "https://github.com/abycegutua/reward_model_overfit_pattern_locate/issues"
 
 [project.scripts]
-mmeval_jd343 = "mmeval_jd343:main"
+reward_model_overfit_pattern_locate = "reward_model_overfit_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["mmeval_jd343"]
+py-modules = ["reward_model_overfit_pattern_locate"]
